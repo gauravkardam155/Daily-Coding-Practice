@@ -8,4 +8,4 @@ def check_progress(project_list):
     print("--- Gaurav's Project Dashboard ---")
     for project in project_list:
         print(f"Project: {project['name']} | Status: {project['status']}")
-check_progress(projects)
+check_progress(projects) 
