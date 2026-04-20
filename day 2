@@ -9,7 +9,7 @@ def get_grade(score):
         return "C (Keep Practicing)"
 
 my_score = 85
-result = get_grade(my_score)
+result = get_grade(my_score) 
 
 print(f"Gaurav's Score: {my_score}")
 print(f"Final Grade: {result}"))
