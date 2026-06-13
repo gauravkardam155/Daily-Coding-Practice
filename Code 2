@@ -9,7 +9,7 @@ while True:
     attempts += 1 
     
     if guess < secret_number:
-        print("Too low! Try again.") 
+        print("Too low! Try again.")
     elif guess > secret_number:
         print("Too high! Try again.") 
     else:
