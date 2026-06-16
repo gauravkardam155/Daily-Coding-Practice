@@ -4,7 +4,7 @@ def get_grade(score):
     elif score >= 80:
         return "A (Very Good)"
     elif score >= 60:
-        return "B (Good Job)"
+        return "B (Good Job)" 
     else:
         return "C (Keep Practicing)" 
 
