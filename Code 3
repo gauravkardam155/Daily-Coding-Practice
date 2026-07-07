@@ -1,0 +1,44 @@
+import random
+
+# Variable
+name = "Naruto"
+age = 22
+height = 5.8
+is_student = True
+
+# Print
+print("----- Student Information -----")
+print("Name :", name)
+print("Age :", age)
+print("Height :", height)
+print("Student :", is_student)
+
+# Type Casting
+age_str = str(age)
+height_int = int(height)
+
+print("\nAfter Type Casting")
+print("Age =", age_str, "|", type(age_str))
+print("Height =", height_int, "|", type(height_int))
+
+# Random Number
+lucky_number = random.randint(1, 100)
+print("\nLucky Number :", lucky_number)
+
+# Global Variable
+course = "Python"
+
+def show_course():
+    print("Course :", course)
+
+show_course()
+
+# Local Variable
+def welcome():
+    message = "Welcome to Python!"
+    print(message)
+
+welcome()
+
+# End
+print("\nProgram Finished Successfully!")
